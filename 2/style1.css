@@ -1,0 +1,476 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#landingPage {
+    padding: 0;
+    margin: 0;
+    background-color: #f6f2f2;
+}
+
+#logo {
+    height: 22px;
+    width: 65px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#header {
+    padding: 35px 90px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+
+
+
+#nav {
+
+    font-weight: 550;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+.lispacing {
+    margin-left: 55px;
+}
+
+#nav li {
+    font-size: 18px;
+
+    display: inline;
+
+}
+
+#contact {
+
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 0;
+    background: none;
+
+    border: 2 px solid black;
+    border-radius: 30px;
+    color: black;
+
+
+    display: inline;
+    font-size: 18px;
+    font-weight: bolder;
+    float: right;
+
+
+}
+
+#content {
+    justify-content: space-around;
+    display: flex;
+}
+
+#networks {
+    width: 100px;
+    padding: 150px 25px;
+}
+
+#networks i {
+
+    color: #000000;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+#right {
+
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+#girl {
+    margin-right: 100px;
+    height: 650px;
+}
+
+
+
+#intro {
+
+    font-size: 20px;
+    display: inline;
+    padding: 75px 10px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    letter-spacing: 0.02em;
+    font-weight: 525;
+    font-size: 68px;
+}
+
+#landingp {
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    width: 600px;
+    font-weight: lighter;
+}
+
+.pinkbtn {
+    background-color: #CE3E69;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    letter-spacing: 00.02em;
+    filter: drop-shadow(0px 12px 8px pink);
+}
+
+#service {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+#download {
+    color: #000000;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-left: 5%;
+    letter-spacing: 00.02em;
+    font-weight: 550;
+}
+
+span i {
+    border: none;
+    height: 18px;
+    width: 18px;
+    margin-left: 3%;
+    color: #000000;
+}
+
+
+#dots {
+    position: absolute;
+    top: 48%;
+    left: 80%;
+    height: 135px;
+}
+
+#hi {
+    font-size: 21px;
+    font-weight: 535;
+
+}
+
+
+span {
+    color: #CE3E69;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#dots2 {
+    position: absolute;
+    top: 135%;
+    left: 6%;
+    height: 135px;
+}
+
+#about {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 120px 0;
+
+
+
+}
+
+#about p {
+    width: 700px;
+}
+
+.abtme {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+hr {
+
+    background-color: #000000;
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 110px;
+    height: 1px;
+}
+
+.titles {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 525;
+}
+
+#aright {
+    padding-left: 5%;
+    margin-right: 10%;
+}
+
+#aleft {
+    margin-left: 10%;
+}
+
+#abimg {
+    margin-left: 32%;
+    position: relative;
+    width: 450px;
+}
+
+#service {
+    background-color: #f6f2f2;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ti {
+    margin-left: 50px;
+}
+
+#servcont {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+
+
+#servcont i {
+    position: relative;
+    left: -80%;
+    font-size: 20px;
+
+    color: #CE3E69;
+
+}
+
+
+
+
+#serv2 {
+    padding: 100px 0;
+}
+
+#boxesContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#idk {
+    margin: 60px 0;
+    display: flex;
+
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 25px;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 370px;
+}
+
+.date i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.boxInfo {
+    color: #000000;
+    font-size: 18px;
+    padding: 15px;
+
+}
+
+.boxInfo p {
+
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.boxInfo a {
+
+    border-bottom: 1px solid #CE3E69;
+    text-decoration: none;
+    line-height: 30px;
+    color: #CE3E69;
+}
+
+
+.blogimg {
+    width: 100%;
+
+    object-fit: cover;
+    height: 300px;
+
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#phone {
+    margin-left: 200px;
+    position: relative;
+}
+
+#dots3 {
+    position: absolute;
+    left: 6%;
+    height: 135px;
+
+}
+
+
+.inputspacing {
+    margin-left: 30px;
+}
+
+#info {
+    margin: 20px 0px;
+
+}
+
+#inputs input {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    color: black;
+    border: 2px solid #CCCED0;
+    border-radius: 5px;
+}
+
+#inputs input::-webkit-input-placeholder {
+    color: #CCCED0;
+    letter-spacing: 0.02em;
+}
+
+#message {
+    width: 572px;
+    margin-top: 20px;
+    padding: 10px 100px 200px 10px;
+    display: block;
+    margin-bottom: 40px;
+
+
+}
+
+/* #message::placeholder {
+    padding-top: 0;
+} */
+
+
+.ctinput {
+    justify-content: space-between;
+    padding: 25px 100px 25px 10px;
+}
+
+
+#footerCont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer {
+    padding: 90px 0 60px 0;
+    background-color: #f6f2f2;
+
+}
+
+#logo2 {
+    height: 55px;
+}
+
+#links {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links i {
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+
+#subscription {
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#mail {
+    background: none;
+    width: 552px;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    padding: 20px 0px 20px 10px;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+#subscribe {
+    padding: 20px 40px;
+    position: absolute;
+    left: 56%;
+    letter-spacing: 0.02em;
+}
+
+#copyrights {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
